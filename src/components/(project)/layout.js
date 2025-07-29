@@ -3,8 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
 import { Poppins } from 'next/font/google';
-import React from "react";
-import AnimatedCursor from "react-animated-cursor"
+
 
 export const metadata = {
   title: "Create Next App",
@@ -21,13 +20,6 @@ export default function RootLayout({ children }) {
       <body
       className="">
       <div className="">
-        <AnimatedCursor 
-         innerSize={20}
-      outerSize={8}
-      color='193, 11, 111'
-      outerAlpha={0.6}
-      innerScale={0.7}
-      outerScale={8}/>
           <Navbar/>
         {children}
         <Footer/>

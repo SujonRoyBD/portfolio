@@ -6,10 +6,31 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+         DEFAULT: "16px",
+          sm: "20px",
+          md: "20px",
+          lg: "30px",
+          xl: "80px",
+      },
+       screens: {
+        xs: "475px", // custom breakpoint
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        poppins: ['var(--font-poppins)'],
       },
     },
   },
