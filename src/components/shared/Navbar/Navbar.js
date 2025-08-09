@@ -32,7 +32,7 @@ const Navbar = () => {
           ))}
 
           <Link
-            href="#resume"
+            href="https://drive.google.com/file/d/10Rq8Gho09DqYW_kgXxPYOecgQGGAEH6Y/view?usp=drive_link"
             className="px-5 py-2 border border-cyan-400 text-white font-semibold rounded-full hover:bg-cyan-600 hover:text-white transition-all duration-300"
           >
             Resume
