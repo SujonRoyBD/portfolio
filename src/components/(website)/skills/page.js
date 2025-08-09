@@ -5,8 +5,8 @@ const MySkill = () => {
   return (
     <div className="shadow-lg shadow-gray-700">
         <p className="text-center pt-12 text-3xl font-bold">Skills & Expertise</p>
-      <div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-[50px] py-12 container">
+      <div className="lg:ml-8 md:ml-0">
+        <div className="grid grid-cols-2 md:grid-cols-5 px-14 gap-[50px] py-12 container">
           <div className="border-2 h-[120px] w-[120px] border-blue-500 rounded-full px-9 py-6 shadow-xl">
             <Image src="/assets/html.webp" alt="html" width={60} height={60} />
             <p className="text-center py-2">HTML</p>

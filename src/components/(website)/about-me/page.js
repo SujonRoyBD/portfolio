@@ -7,7 +7,7 @@ const AboutMe = () => {
         <h2 className="text-3xl font-bold text-center pb-9">About Me</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
-          <Image className="w-[500px] h-[500px]"
+          <Image className="w-[500px] h-[500px] md:h-[600px] lg:h-[500px]"
             src="/assets/computer.webp"
             alt="computer"
             width={550}
@@ -31,7 +31,7 @@ const AboutMe = () => {
         contribute to the success of innovative teams. Let’s collaborate to
         bring impactful ideas to life!
         </div>
-        <Image className="flex justify-center items-center mx-auto py-4" src="/assets/mernstack.webp" alt="mern" width={200} height={100}/>
+        <Image className="flex justify-center items-center mx-auto md:justify-start py-4" src="/assets/mernstack.webp" alt="mern" width={200} height={100}/>
         </div>
       </div>
     </div>

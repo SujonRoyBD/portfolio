@@ -1,4 +1,4 @@
-import localFont from "next/font/local";
+
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
@@ -11,8 +11,8 @@ export const metadata = {
 };
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'], // আপনি যেসব weight ব্যবহার করবেন
-  variable: '--font-poppins', // Optional, CSS variable হিসেবে ব্যবহার করতে চাইলে
+  weight: ['400', '500', '600', '700'], 
+  variable: '--font-poppins', 
 });
 export default function RootLayout({ children }) {
   return (
