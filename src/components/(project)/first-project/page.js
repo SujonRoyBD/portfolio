@@ -16,12 +16,12 @@ const FirstProject = () => {
         </div>
         <div>
           <p className="text-3xl font-bold text-center md:text-start lg:text-start text-indigo-400 py-4">Discount-me</p>
-          <p className="py-4">
+          <p className="py-4 text-justify">
             This is a restaurant and e-commerce themed UI layout showcasing
             features like food booking, discounts, free delivery, secure
             payment, 24/7 support, and restaurant listings. It includes product
             displays (like shoes), navigation menus, and quick links for login,
-            cart, wishlist, support, and contact details for user convenience.
+            cart, wishlist support, and contact details for user convenience.
             er banga;
           </p>
           <div className="flex gap-5 justify-center items-center mx-auto md:justify-start lg:items-start">
