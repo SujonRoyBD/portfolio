@@ -20,7 +20,7 @@ const FirstProject = () => {
             This is a restaurant and e-commerce themed UI layout showcasing
             features like food booking, discounts, free delivery, secure
             payment, 24/7 support, and restaurant listings. It includes product
-            displays (like shoes), navigation menus, and quick links for login,
+            displays (like shoes), navigation menu, and quick links for login,
             cart, wishlist support, and contact details for user convenience.
             er banga;
           </p>
