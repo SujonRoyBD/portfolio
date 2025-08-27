@@ -16,7 +16,7 @@ const AboutMe = () => {
 
         </div>
         <div className=" ">
-        <div className="leading-normal text-lg ">
+        <div className="leading-normal text-lg text-justify">
             Hi, This is Sujon Roy, and I am a
         dedicated and passionate Frontend Developer with a proven track record
         of building dynamic, efficient, and scalable web applications.I am a self-motivated programmer who thrives on continuous

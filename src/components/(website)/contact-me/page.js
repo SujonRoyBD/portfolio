@@ -41,12 +41,12 @@ const ContactMe = () => {
         </div>
         <div>
           <p className="font-semibold">Follow Me</p>
-          <div className="flex space-x-6  mt-2">
+          <div className="flex space-x-6 py-3 mt-2">
             <a href="https://www.facebook.com/sujon.roy.721137" target="_blank">
               <Image src="/assets/fbdownload (1).png" alt="Facebook" width={60} height={60} className="w-[40px] h-[40px] rounded-full" />
             </a>
             <a href="https://github.com" target="_blank">
-              <Image src="/assets/gith.png" alt="WhatsApp" width={40} height={40} className="w-[40px] h-[40px] rounded-full" />
+              <Image src="/assets/gt.png" alt="WhatsApp" width={30} height={30} className="w-[40px] h-[40px] bg-white rounded-full" />
             </a>
             <a href="https://linkedin.com" target="_blank">
               <Image src="/assets/linkdin.png" alt="LinkedIn" width={40} height={40} className="w-[40px] h-[40px] rounded-full" />

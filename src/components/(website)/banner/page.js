@@ -41,23 +41,30 @@ const Banner = () => {
               <FaGithub className="text-white px-1 py-1 text-2xl" />
             </div>
           </div>
-          <div className="flex gap-4">
-            <a
+          <div className="lg:flex gap-4 text-center">
+            <div className="py-4">
+             <div>
+               <a
               href="#contact"
-              className="flex gap-2 border border-cyan-400 px-5 py-2 rounded-full font-semibold hover:bg-cyan-600 hover:text-white transition"
+              className="flex gap-2 border border-cyan-400 px-5 py-2 rounded-full font-semibold hover:bg-cyan-600 hover:text-white transition text-center justify-center items-center"
             >
               Contact Me
               <IoIosContact className="mt-1" />
             </a>
-            <a
+             </div>
+            </div>
+
+           <div className="md:mt-4">
+             <a
               target="_blank"
               href="/assets/Personal.pdf"
               // download
-              className=" flex gap-2 border border-cyan-400 px-5 py-2 rounded-full font-semibold hover:bg-cyan-600 hover:text-white transition"
+              className=" flex gap-2 border border-cyan-400 px-5 py-2 rounded-full font-semibold hover:bg-cyan-600 hover:text-white transition text-center justify-center items-center"
             >
               Download Resume
               <IoMdDownload className="mt-1" />
             </a>
+           </div>
           </div>
         </div>
         <div className="flex justify-center">
