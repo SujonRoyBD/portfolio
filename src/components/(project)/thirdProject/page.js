@@ -73,7 +73,10 @@ const ThirdProject = () => {
           </div>
 
           {/* Tech Stack */}
-          <div className="flex gap-9 py-7 flex-wrap">
+          <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-9 py-7">
+               <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Html</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Css</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 ">Tailwin Css </p>
             <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">
               JavaScript
             </p>

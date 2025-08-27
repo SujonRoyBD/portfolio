@@ -24,14 +24,15 @@ const MySkill = () => {
             />
             <p className="text-center py-2">Javascript</p>
           </div>
-          <div className="border-2 h-[120px] w-[120px] border-blue-500 rounded-full px-8 py-5 shadow-xl">
+          <div className="border-2 h-[120px] w-[120px] border-blue-500 rounded-full px-6 py-5 shadow-xl">
             <Image
-              src="/assets/boot.png"
+              src="/assets/t.png"
               alt="bootstrap"
-              width={60}
+              width={40}
               height={60}
+              className="h-[50px]"
             />
-            <p className="text-center ">Bootstrap</p>
+            <p className="text-center ">Typescript</p>
           </div>
           <div className="border-2 h-[120px] w-[120px] border-blue-500 rounded-full px-8 py-6 shadow-xl ">
             <Image

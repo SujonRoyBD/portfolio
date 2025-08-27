@@ -11,7 +11,7 @@ const SecondProject = () => {
           <Image src="/assets/sum-dim-sum.png" alt="sum" height={300} width={500}  className="md:h-[500px] lg:h-[400px]"/>
         </div>
         <div>
-          <p className="text-3xl font-bold text-indigo-400 py-4 text-center md:text-start lg:text-start">Sum-food
+          <p className="text-3xl font-bold text-indigo-400 text-center md:text-start lg:text-start">Sum-food
           </p>
           <p className="py-4">
             This is a restaurant and e-commerce themed UI layout showcasing
@@ -44,12 +44,15 @@ const SecondProject = () => {
           </a>
 
           </div>
-          <div className="flex gap-9 py-7">
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">JavaScript</p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">Next Js</p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">Typescript</p>
+          <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-9 py-7">
+              <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Html</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Css</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 ">Tailwin Css </p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">JavaScript</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Next Js</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Typescript</p>
 
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">Shadcn-Ui</p>
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Shadcn-Ui</p>
             
           </div>
         </div>
