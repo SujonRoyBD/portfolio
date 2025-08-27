@@ -77,16 +77,16 @@ const ThirdProject = () => {
                <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Html</p>
             <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">Css</p>
             <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 ">Tailwin Css </p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">
               JavaScript
             </p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">
               Next.Js
             </p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">
               Typescript
             </p>
-            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1">
+            <p className="text-violet-500 border rounded-xl border-gray-400 px-2 py-1 text-center">
               Shadcn-Ui
             </p>
           </div>
