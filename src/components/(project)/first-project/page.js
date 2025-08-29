@@ -17,7 +17,7 @@ const FirstProject = () => {
         <div>
           <p className="text-3xl font-bold text-center md:text-start lg:text-start text-indigo-400 ">Discount-me</p>
           <p className="py-4 text-justify">
-            This is a restaurant and e-commerce themed UI layout showcasing
+            This is a restaurant and e-commerce theme UI layout showcasing
             features like food booking, discounts, free delivery, secure
             payment, 24/7 support, and restaurant listings. It includes product
             displays (like shoes), navigation menu, and quick links for login,
